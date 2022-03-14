@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimal-ui" />
+    <meta charset="utf-8" />
+    <title>Federal Electoral Candidates</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+</head>
+<body>
+    <div class="fluid-container">
+        <header class="site-header">
+            <div class="navbar-default navbar-fixed-top">
+                <div class="fluid-container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="./index.html">Federal Electoral Candidates</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul style="margin: 20px;" class="nav navbar-nav navbar-right">
+                            <li><a class="link-service" href="./index.html">Home</a></li>
+                            <li><a class="link-service" href="./candidate_details.html">Candidate Details</a></li>
+                            <li><a class="link-service" href="./about_us.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main-content">
+        <div class="fluid-container">
+            <div class="section-welcome">
+                <h2>Candidates List</h2>
+                <p>
+                    The table contains all candidates details
+                </p>
+                <button class="text-right btn btn-default">Add Candidate</button>
+                <table class="table" id="candidates-list">
+                    <thead>
+                        <tr>
+                            <th>Candidate Id</th>
+                            <th>Candidate Name</th>
+                            <th>Candidate State</th>
+                            <th>Candidate Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>P40002172</th>
+                            <th>AABBATTE, MICHAEL THOMAS WITORT</th>
+                            <th>US</th>
+                            <th>N</th>
+                            <th><i class='fa fa-edit' title='Edit' style='font-size: 20px;cursor:pointer;padding-right: 10px;'></i><i title='Delete' class='fa fa-trash' style='font-size: 20px;cursor:pointer;'></i></button></th>
+                        </tr>
+                        <tr>
+                            <th>S2CO00175</th>
+                            <th>AADLAND, ERIK</th>
+                            <th>CO</th>
+                            <th>N</th>
+                            <th><i class='fa fa-edit' title='Edit' style='font-size: 20px;cursor:pointer;padding-right: 10px;'></i><i title='Delete' class='fa fa-trash' style='font-size: 20px;cursor:pointer;'></i></button></th>
+                        </tr>
+                        <tr>
+                            <th>H0UT03227</th>
+                            <th>AADLER, TIM</th>
+                            <th>UT</th>
+                            <th>C</th>
+                            <th><i class='fa fa-edit' title='Edit' style='font-size: 20px;cursor:pointer;padding-right: 10px;'></i><i title='Delete' class='fa fa-trash' style='font-size: 20px;cursor:pointer;'></i></button></th>
+                        </tr>
+                        <tr>
+                            <th>S2UT00229</th>
+                            <th>AALDERS, TIMOTHY NOEL</th>
+                            <th>UT</th>
+                            <th>P</th>
+                            <th><i class='fa fa-edit' title='Edit' style='font-size: 20px;cursor:pointer;padding-right: 10px;'></i><i title='Delete' class='fa fa-trash' style='font-size: 20px;cursor:pointer;'></i></button></th>
+                        </tr>
+                        <tr>
+                            <th>H8CA18053</th>
+                            <th>AAROE, KEN</th>
+                            <th>CA</th>
+                            <th>N</th>
+                            <th><i class='fa fa-edit' title='Edit' style='font-size: 20px;cursor:pointer;padding-right: 10px;'></i><i title='Delete' class='fa fa-trash' style='font-size: 20px;cursor:pointer;'></i></button></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section-welcome">
+            <canvas id="mybarChart"></canvas>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/jquery.gmap3.min.js"></script>
+</body>
+</html>
